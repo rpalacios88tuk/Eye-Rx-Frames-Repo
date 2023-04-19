@@ -1,0 +1,164 @@
+//custom variables**
+
+$thene-colors: ();
+
+.nav-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  box-shadow: 10px 5px 20px;
+  border-radius: 5%;
+  margin-left: 20px;
+}
+
+.address {
+  display: inline-block;
+  margin-left: 10px;
+  color: white;
+}
+
+body {
+  background-color: #438fe6;
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.top-title {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+#top {
+  background-image: url(/images/palmdale-ca.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+#top::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#catch {
+  height: 550px;
+}
+
+#catch .carousel-item img {
+  max-height: 550px;
+
+  object-fit: contain;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+main {
+  background-color: #dad8d8;
+  color: black;
+}
+
+.container {
+  max-width: 1000px;
+  background-color: #438fe6;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.oval-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 25%;
+  padding-top: 10px;
+  text-align: center;
+  width: 280px;
+  height: 55px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #ffff;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.pr {
+  margin: 0;
+  padding: 0;
+}
+
+#transparent-carousel {
+  width: 500px;
+  height: auto;
+}
+
+#carouselExampleCaptions img {
+  max-height: 750px;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.popover-header {
+  color: #438fe6;
+  height: auto;
+}
+
+.card-text {
+  color: #333;
+}
+
+.footer-image {
+  background-image: url(images/palmdale-ca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+iframe[src^="https://www.google.com/maps"]
+{
+  display: block;
+  margin: 0 auto;
+}
+
+div.copyright {
+  text-align: center;
+}
