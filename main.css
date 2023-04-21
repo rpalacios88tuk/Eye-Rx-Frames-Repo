@@ -6,12 +6,6 @@
   margin-left: 20px;
 }
 
-.nav-container {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-}
-
 body {
   background-color: #438fe6;
   color: white;
@@ -142,7 +136,7 @@ main {
 }
 
 .footer-image {
-  background-image: url(images/palmdale-ca.jpg);
+  background-image: url(images/footerpic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
