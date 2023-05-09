@@ -10,9 +10,6 @@ $thene-colors: ();
   margin: 20px;
 }
 
-
-
-
 body {
   background-color: #438fe6;
   color: #ffff;
@@ -95,7 +92,6 @@ main {
 }
 
 .container {
-
   background-color: #438fe6;
 }
 
@@ -159,5 +155,38 @@ div.copyright {
   text-align: center;
 }
 
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #own,
+  #own * {
+    visibility: visible;
+  }
+  #order-lens,
+  #order-lens * {
+    visibility: visible;
+  }
 
+  #own {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 
+  #own {
+    page-break-after: always;
+  }
+
+  .order-lens-container {
+    page-break-before: always;
+  }
+}
+
+@media (max-width: 767px) {
+  #transparent-carousel {
+    width: 100%;
+
+    max-width: 767px;
+  }
+}
