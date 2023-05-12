@@ -160,24 +160,19 @@ div.copyright {
   text-align: center;
 }
 
-
-
-
-
-
 @media print {
   body * {
     visibility: hidden;
   }
-  
-  #own, #own * {
+
+  #own,
+  #own * {
     visibility: visible;
   }
-  
+
   #own {
     position: absolute;
     left: 0;
     top: 0;
   }
 }
-
