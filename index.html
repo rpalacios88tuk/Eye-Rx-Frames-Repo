@@ -355,12 +355,11 @@
 </div>
 </section>
 <div class="b-example-divider"></div>    
-<div id="printable"></div>
 <section id="own">
 <div class="container my-2">
   <h1 style="text-align: center;">Use Your Own Frame</h1>
   <p>We understand that some of our customers may prefer to use their own eyeglass frames for their prescription lenses. If you wish to do so, please fill out the following form with the information about your frame. Please note that by using your own frame, you assume all risks and release us from any liability regarding the frame's condition, fit, and any damages that may occur during the lens installation process.</p>
-  <form action="https://formsubmit.co/eyerxframes@gmail.com" method="POST">
+  <form action="https://formsubmit.co/eyerxframes@gmail.com" method="POST"></form>
     <div class="row mb-3">
       <div class="col-sm-6">
         <label for="name" class="form-label">Full Name</label>
@@ -395,8 +394,8 @@
         <textarea class="form-control" id="waiver" name="waiver" rows="3" required></textarea>
       </div>
     </div>
-    <button type="button" onclick="window.print()" class="btn btn-primary">Print</button>
     <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="button" onclick="window.print()" class="btn btn-primary">Print</button>
   </form>
 </div>
 </div>
@@ -526,7 +525,7 @@
                   </tbody>
                 </table>
                 <div class="my-2 d-grid gap-2 col-md-4 mx-auto">
-                  <button type="button" onclick="printSection()">Print Prescription</button>
+                <button type="button" onclick="window.print()" class="btn btn-primary btn-lg">Print Rx</button>
                 </div>
               </form>
             </div>
@@ -779,11 +778,6 @@ function updateCardTitle() {
   cardTitle.textContent = cardText;
 }
 </script>
- <script> 
-function printSection() {
-  window.print();
-}
-</script> 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/e8c188b1fa.js" crossorigin="anonymous"></script>   
