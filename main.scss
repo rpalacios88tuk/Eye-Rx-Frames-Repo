@@ -176,3 +176,19 @@ div.copyright {
     top: 0;
   }
 }
+
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+li {
+  text-align: left;
+  margin-left: 2em;
+  line-height:2.5;
+}
+
+.disc {
+  color: red;
+  font-weight: bold;
+}
