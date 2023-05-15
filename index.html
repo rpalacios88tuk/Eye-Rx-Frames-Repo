@@ -500,25 +500,25 @@
               <p>We understand that some of our customers may prefer to use their own eyeglass frames for their prescription lenses. If you wish to do so, please fill out the following form with the information about your frame. Please note that by using your own frame, you assume all risks and release us from any liability regarding the frame's condition, fit, and any damages that may occur during the lens installation process.</p>
               <form action="https://formsubmit.co/8349a6f6350526d8f592d9f2c1ac1fc1" method="POST">
                 <!-- Honeypot -->
-                
+                <input type="text" name="_honey" style="display: none;">
                 <!-- Disable Captcha -->
-                
+                <input type="hidden" name="_captcha" value="false">
                 <div class="row mb-3">
                   <div class="col-sm-6">
                     <label for="name" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="First , Last" required>
                   </div> 
                   <div class="col-sm-6">
                     <label for="brand" class="form-label">Phone #</label>
-                    <input type="text" class="form-control" id="phone" name="phone" required>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="661-522-0610" required>
                   </div>
                   <div class="col-sm-6">
                     <label for="name" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="email" name="email" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
                   </div> 
                   <div class="col-sm-6">
                     <label for="brand" class="form-label">Frame Brand</label>
-                    <input type="text" class="form-control" id="brand" name="brand" required>
+                    <input type="text" class="form-control" id="brand" name="brand" placeholder="e.g. Ray Ban" required>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -526,7 +526,7 @@
                     <label for="model" class="form-label">Frame Model <span class="question-icon" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-title="Finding Model # or Frame Name" data-bs-content="Look for a marking or label on the temples also known as the Arms of the glasses. This is the part that goes over your ears.
                       If you see a series of numbers and letters on the inside of the temple, that is likely the model number. It may also include the brand name or logo.
                       If you can't find a model number, look for a name or code on the outside of the temple or on the frame itself. This may be printed or engraved."><i class="bi bi-question-circle"></i></span></label>
-                    <input type="text" class="form-control" id="model" name="model" required>
+                    <input type="text" class="form-control" id="model" name="model" placeholder="e.g RB5154" required>
                   </div>
                   <div class="col-sm-6">
                     <label for="size" class="form-label">Frame Size <span class="question-icon" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-title="How to Find Size" data-bs-content="Look for a set of numbers on the inside of one of the temples also known as the Arms of the glasses. The eyeglass size is typically expressed as a series of three numbers, separated by dashes or squares. The first number represents the lens width, which is the horizontal distance across one lens in millimeters.
@@ -536,7 +536,7 @@
                       Bridge width: 18mm
                       Temple length: 140mm
                       "><i class="bi bi-question-circle"></i></span></label>
-                    <input type="text" class="form-control" id="size" name="size" required>
+                    <input type="text" class="form-control" id="size" name="size" placeholder="52/18-140" required>
                   </div>
                 </div>  
                 <div class="row mb-2">
