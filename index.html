@@ -437,20 +437,23 @@
         <p>Once these steps are complete an invoice will be emailed to you with the discounted price and a ship to address request. A prepaid postage will be emailed to you once invoice is paid for personal frame to be shipped to Eye Rx Frames.</p>
       </div>
       <style>
-        .rx {
-          padding: 20px;
-        }
+        @media (max-width: 576px) {
+          /* Adjust the layout for mobile devices with a maximum width of 576px */
+          table {
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+          }
       
-        .rx h1 {
-          font-size: 24px;
-        }
+          th,
+          td {
+            min-width: 120px;
+          }
       
-        .rx table {
-          width: 100%;
-        }
-      
-        .rx input[type="text"] {
-          width: 100%;
+          th:first-child,
+          td:first-child {
+            min-width: 80px;
+          }
         }
       </style>
       <div class="rx">
