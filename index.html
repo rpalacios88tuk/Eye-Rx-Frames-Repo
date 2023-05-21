@@ -89,13 +89,39 @@
     </div>
   </div>
 </nav>
+<style>
+  #transparent-carousel {
+    width: 75%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-inner {
+    max-height: 400px; /* Adjust the height as needed */
+  }
+
+  /* Media query for mobile devices in portrait orientation */
+  @media (max-width: 576px) {
+    .carousel-inner {
+      max-height: 300px; /* Adjust the height as needed for mobile */
+    }
+
+    .top-title {
+      font-size: 24px; /* Adjust the font size for mobile */
+    }
+
+    .text-white {
+      font-size: 16px; /* Adjust the font size for mobile */
+    }
+  }
+</style>
 <section id="top">
   <div>
     <h1 class="top-title">Eye Rx Frames | Quality Eyewear Solutions</h1>
     <h3>"See clearly, look stylish: Your vision, our passion."</h3>
   </div>
   <div id="transparent-carousel" class="carousel slide p-4 mx-auto" data-bs-ride="carousel">
-    <div class="carousel-inner ya">
+    <div class="carousel-inner">
       <div class="carousel-item active">
         <h2 class="text-white">Eye Rx Frames: Affordable Eyewear & Cutting-Edge Finishing Lab</h2>
         <p class="text-white">Discover Eye Rx Frames, your trusted optician-owned optical shop. We offer a wide selection of quality eyewear at affordable prices, backed by our state-of-the-art finishing lab. With in-house lens customization services, including cutting, grinding, and polishing, we ensure quick and accurate results.</p>

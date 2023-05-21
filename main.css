@@ -119,16 +119,6 @@ main {
   padding: 0;
 }
 
-#transparent-carousel {
-  width: 75%;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.ya {
-  max-height: calc(100vh - 200px); /* Adjust the height as needed */
-}
-
 #carouselExampleCaptions img {
   max-height: 750px;
   -o-object-fit: contain;
