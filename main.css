@@ -120,7 +120,13 @@ main {
 }
 
 #transparent-carousel {
-  width: 500px;
+  width: 75%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.ya {
+  max-height: calc(100vh - 200px); /* Adjust the height as needed */
 }
 
 #carouselExampleCaptions img {
