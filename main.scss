@@ -48,11 +48,14 @@ body {
 }
 
 #catch {
-  height: 550px;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 400px;
 }
 
 #catch .carousel-item img {
-  max-height: 550px;
+  max-height: 405px;
 
   object-fit: contain;
 }
@@ -188,3 +191,15 @@ ol {
   color: red;
   font-weight: bold;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.video-container iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
