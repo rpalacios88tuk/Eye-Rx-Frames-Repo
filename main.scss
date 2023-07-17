@@ -9,6 +9,14 @@ $thene-colors: ();
   border-radius: 5%;
   margin: 20px;
 }
+
+.call-btn {
+  position: absolute;
+  right: 4rem;
+}
+ 
+
+
 html,
 body {
   background-color: #438fe6;
@@ -132,66 +140,27 @@ main {
   object-fit: contain;
   max-width: 100%;
 }
-
-.popover-header {
-  color: #438fe6;
-  height: auto;
-}
-
 .card-text {
   color: #333;
 }
-
 .footer-image {
   background-image: url(images/footerpic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
-
 iframe[src^="https://www.google.com/maps"]
 {
   display: block;
   margin: 0 auto;
 }
-
 div.copyright {
   text-align: center;
 }
-
-@media print {
-  body * {
-    visibility: hidden;
-  }
-
-  #own,
-  #own * {
-    visibility: visible;
-  }
-
-  #own {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-}
-
 ol {
   list-style-position: inside;
   padding-left: 0;
 }
-
-.steps {
-  text-align: left;
-  margin-left: 2em;
-  line-height: 2.5;
-}
-
-.disc {
-  color: red;
-  font-weight: bold;
-}
-
 .video-container {
   display: flex;
   justify-content: center;

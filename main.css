@@ -6,6 +6,11 @@
   margin: 20px;
 }
 
+.call-btn {
+  position: absolute;
+  right: 4rem;
+}
+
 html,
 body {
   background-color: #438fe6;
@@ -128,11 +133,6 @@ main {
   max-width: 100%;
 }
 
-.popover-header {
-  color: #438fe6;
-  height: auto;
-}
-
 .card-text {
   color: #333;
 }
@@ -153,34 +153,9 @@ div.copyright {
   text-align: center;
 }
 
-@media print {
-  body * {
-    visibility: hidden;
-  }
-  #own,
-  #own * {
-    visibility: visible;
-  }
-  #own {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-}
 ol {
   list-style-position: inside;
   padding-left: 0;
-}
-
-.steps {
-  text-align: left;
-  margin-left: 2em;
-  line-height: 2.5;
-}
-
-.disc {
-  color: red;
-  font-weight: bold;
 }
 
 .video-container {

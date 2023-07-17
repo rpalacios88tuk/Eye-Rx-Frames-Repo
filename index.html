@@ -36,48 +36,46 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fs-5 navbar-dark" style="background-color: #438fe6">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="images/Logo1 .png" width="180" height="120" style="
-        border-radius: 48%;
-        transform: rotate(-10deg);
-        border: 2px dotted white;
-        box-shadow: 10px 5px 20px;
-      " alt="logo" />
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#top">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#framegal">Eyeglasses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#price"> Lens Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#poli">Policy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#end">Contact</a>
-        </li>
-      </ul>
-      <div class="d-flex flex-column flex-lg-row align-items-center ms-lg-auto">
-        <div class="address mb-2 mb-lg-0 me-lg-4"> 
-          1805 W Avenue K Suite 203C Lancaster, CA 93534
-        </div>
-        <button type="button" class="btn btn-secondary call-btn btn-md" onclick="window.location.href='tel:6615220610'">
-          Call (661)522-0610
+      <div class="container-fluid justify-content-end"> <!-- Added justify-content-end class -->
+        <a class="navbar-brand" href="#">
+          <img src="images/Logo1 .png" width="180" height="120" style="
+            border-radius: 48%;
+            transform: rotate(-10deg);
+            border: 2px dotted white;
+            box-shadow: 10px 5px 20px;
+          " alt="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0"> <!-- Changed justify-content-center to ml-auto -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#top">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#framegal">Eyeglasses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price"> Lens Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#poli">Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#end">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://squareup.com/appointments/book/d0wuz0o666l2pc/L6969W48NG8DG/start" target="_blank">Booking</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-secondary call-btn btn-lg" onclick="window.location.href='tel:6615220610'">
+            Call (661)522-0610
+          </button>
+          
         </div>
       </div>
-    </div>
-  </div>
-</nav>
+    </nav>
 <style>
   #transparent-carousel {
     width: 75%;
@@ -221,10 +219,7 @@
         <div class="col-lg-6 col-md-8 mx-auto">
           <h2 class="fw-light">Eyeglass Frames</h2>
           <p class="fs-5 lead">Explore our collection of stylish frames.</p>
-          <p>
             <a href="https://eyerxframes.square.site" target="_blank" class="btn btn-lg btn-primary my-2">Shop New Frames</a>
-            <a href="#own" class="btn btn-lg btn-secondary my-2">Customize with Your Own Frames</a>
-          </p>
         </div>
       </div>
       <div class="container pb-3">
@@ -251,22 +246,28 @@
       </div>
     </section>
 <div class="b-example-divider"></div>
-<section id="serv" class="optical-services mt-5">
+<section id="services" class="optical-services mt-5">
   <div class="container">
     <h2 class="section-title text-center mb-4">Comprehensive Optical Services</h2>
     <div class="row">
       <div class="col-md-6">
         <div class="service-card text-center">
-          <img src="images/eyekeeper.jpg" alt="Glasses and Lenses Services">
-          <h3 class="service-title my-4 text-center">Glasses & Lenses</h3>
-          <p class="service-description text-center">Discover a wide selection of prescription eyeglasses and sunglasses that cater to your needs and style preferences. Our experienced staff is ready to assist you in finding the perfect pair.</p>
+          <img src="images/eyekeeper.jpg" alt="Prescription Eyeglasses and Sunglasses">
+          <h3 class="service-title my-4 text-center">Prescription Eyeglasses and Sunglasses</h3>
+          <p class="service-description text-center mt-4 pt-4">"Explore our wide selection of high-quality prescription eyeglasses and sunglasses designed to meet your vision needs and style preferences. We offer a diverse range of frames from top brands, ensuring you'll find the perfect combination of style, durability, and comfort. With our state-of-the-art lens technology, we can customize your prescription lenses to provide optimal visual clarity and precision. Our knowledgeable staff is ready to assist you in finding the perfect pair that complements your unique style. Whether you're seeking trendy, fashion-forward eyewear or classic, timeless designs, our collection caters to all preferences, allowing you to express your personal style with confidence."</p>
+        </div>
+        <div class="text-center">
+          <a href="https://squareup.com/appointments/book/d0wuz0o666l2pc/L6969W48NG8DG/start" target="_blank" class="btn btn-primary btn-lg mb-2 mt-2">Book Now</a>
         </div>
       </div>
       <div class="col-md-6">
         <div class="service-card text-center">
-          <img src="images/broken.jpg" alt="Adjustments, Repairs, and Troubleshooting Services">
-          <h3 class="service-title my-4 text-center">Adjustments, Repairs, and Troubleshooting</h3>
-          <p class="service-description text-center">Rely on our skilled technicians for professional adjustments to your glasses or expert repairs if needed. We also offer troubleshooting services to resolve any issues you may be experiencing with your frames or lenses.</p>
+          <img src="images/broken.jpg" alt="Glasses Adjustments, Repairs, and Troubleshooting">
+          <h3 class="service-title my-4 text-center">Glasses Adjustments, Repairs, and Troubleshooting</h3>
+          <p class="service-description text-center">"Count on our skilled technicians to provide professional adjustments for your glasses to ensure a comfortable and optimal fit. Our technicians undergo rigorous training to ensure precise adjustments that result in a comfortable and optimal fit for your glasses, allowing you to enjoy clear vision without any discomfort. We also offer expert repairs for damaged frames and lenses. If you encounter any issues with your eyewear, our dedicated troubleshooting services are available to diagnose and resolve any problems promptly, ensuring that your glasses perform at their best. Additionally, our troubleshooting services are available to address any issues you may be experiencing with your eyewear."</p>
+        </div>
+        <div class="text-center">
+          <a href="https://squareup.com/appointments/book/d0wuz0o666l2pc/L6969W48NG8DG/start" target="_blank" class="btn btn-primary btn-lg mb-2">Book Now</a>
         </div>
       </div>
     </div>
@@ -389,219 +390,31 @@
   </div>
 </section>
 <div class="b-example-divider"></div>
-<section id="own">  
-<div class="order-lens-container">
-<div class="order-lens">
-  <div class="container my-5 ">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h1>Need Lenses?..Order Your Perfect Pair</h1>
-        <h5>Ordering lenses has never been easier with Eye Rx Frames. Just follow these steps: </h5>
-        <ol>
-          <li class="steps">Enter your current prescription.</li>
-          <li class="steps">Determine the type of lens you want from the "Lens Type" dropdown menu.</li>
-          <li class="steps">Select the material for your lenses from the "Lens Material" dropdown menu.</li>
-          <li class="steps">If you want any additional features, such as Transitions, Anti-Reflective (AR) Coating, Blue-Blocker, Tints, or Polarized, select the checkboxes for each desired feature.</li>
-          <li class="steps">Check the total cost for your order, which will be displayed on the card to the right, including any additional feature costs. <span class="disc"> 30% Discount</span> to be applied to the lens total when order is placed and invoiced.</li>
-          <li class="steps">To finalize the order click the "Place Order" button to print (save as PDF) your order and email it to <a href="mailto:eyerxframes@gmail.com">eyerxframes@gmail.com</a>.</li>
-          <li class="steps">Last but most important, fill out the frame form below with contact information and submit. </li>
-        </ol>
-        <p>Once these steps are complete an invoice will be emailed to you with the discounted price and a ship to address request. A prepaid postage will be emailed to you once invoice is paid for personal frame to be shipped to Eye Rx Frames.</p>
-      </div>
-      <style>
-        @media (max-width: 576px) {
-          /* Adjust the layout for mobile devices with a maximum width of 576px */
-          table {
-            display: block;
-            overflow-x: auto;
-            white-space: nowrap;
-          }
-          th,
-          td {
-            min-width: 120px;
-          }
-          th:first-child,
-          td:first-child {
-            min-width: 80px;
-          }
-        }
-      </style>
-      <div class="rx">
-        <div class="container my-5 text-center">
-          <h1>Prescription Entry</h1>
-          <form>
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>Eye</th>
-                  <th>Sphere</th>
-                  <th>Cylinder</th>
-                  <th>Axis</th>
-                  <th>Add Power</th>
-                  <th>PD</th>
-                  <th>Vertical Prism</th>
-                  <th>Horizontal Prism</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Right</td>
-                  <td><input type="text" class="form-control" name="right-sphere"></td>
-                  <td><input type="text" class="form-control" name="right-cylinder"></td>
-                  <td><input type="text" class="form-control" name="right-axis"></td>
-                  <td><input type="text" class="form-control" name="right-add"></td>
-                  <td><input type="text" class="form-control" name="right-pd"></td>
-                  <td><input type="text" class="form-control" name="right-vp"></td>
-                  <td><input type="text" class="form-control" name="right-hp"></td>
-                </tr>
-                <tr>
-                  <td>Left</td>
-                  <td><input type="text" class="form-control" name="left-sphere"></td>
-                  <td><input type="text" class="form-control" name="left-cylinder"></td>
-                  <td><input type="text" class="form-control" name="left-axis"></td>
-                  <td><input type="text" class="form-control" name="left-add"></td>
-                  <td><input type="text" class="form-control" name="left-pd"></td>
-                  <td><input type="text" class="form-control" name="left-vp"></td>
-                  <td><input type="text" class="form-control" name="left-hp"></td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="my-2 d-grid gap-2 col-md-4 mx-auto">
-            </div>
-          </form>
-        </div>
-      </div>  
+<section id="order-lenses" class="mt-5>
   <div class="container">
+    <h2 class="section-title text-center mb-4">How to Order Lenses with Eye Rx Frames</h2>
     <div class="row">
-      <div class="col-md-6 order-md-last">
-        <div class="card mb-3 bg-secondary ">
-          <div class="card-header">
-            <h4 class="my-0 fw-normal">Order Your Lenses</h4>
-          </div>
-          <div class="card-body">
-            <h2 class="card-title pricing-card-title">$49<small class="text-muted fw-light">/pair</small></h2>
-            <p>Standard case and micro cloth included</p>
-            <button type="button" onclick="window.print()" class="btn btn-primary btn-lg">Print Order</button>
-          </div>
+      <div class="col-md-6 text-center">
+        <div class="order-option">
+          <h3 class="order-title">Option 1: Book a Consultation</h3>
+          <p class="order-description">To order lenses with Eye Rx Frames, you can book a consultation with our experienced team. During the consultation, our knowledgeable staff will assist you in finding the perfect lenses based on your prescription, vision needs, and style preferences. They will guide you through the lens selection process, help you choose the appropriate lens type, material, and any additional features you may require.</p>
+          <a href="https://squareup.com/appointments/book/d0wuz0o666l2pc/L6969W48NG8DG/start" target="_blank" class="btn btn-lg btn-primary mb-2">Book a Consultation</a>
         </div>
       </div>
-      <div class="col-md-6 order-md-first">
-        <h1 class="mb-4 pb-5">Customize Your Lenses</h1>
-          <div class="mb-3 ">
-            <label for="lens-type">Lens Type:</label>
-            <select class="form-select" id="lens-type">
-              <option value="single-vision">Single Vision - $49/pair</option>
-              <option value="bifocals">Bifocals - $90/pair</option>
-              <option value="progressives">Progressives - $119/pair</option>
-              <option value="progressives advanced">Progressives - $219/pair</option>
-              <option value="progressives premium">Progressives - $319/pair</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="lens-material">Lens Material:</label>
-            <select class="form-select" id="lens-material">
-              <option value="cr-39">CR-39</option>
-              <option value="poly">Poly</option>
-              <option value="hi-index-1.67">Hi-Index 1.67</option>
-              <option value="hi-index-1.74">Hi-Index 1.74</option>
-            </select>
-            <small class="text-muted">+ $40 - $120</small>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="transitions">
-            <label class="form-check-label" for="transitions">Transitions</label>
-            <small class="text-muted">+ $90</small>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="ar-coating">
-            <label class="form-check-label" for="ar-coating">Anti-Reflective Standard / Anti-Glare (AR) Coating</label>
-            <small class="text-muted">+ $40</small>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="advanced-ar-coating">
-            <label class="form-check-label" for="advanced-ar-coating">Anti-Reflective Advanced / Anti-Glare (AR) Coating</label>
-            <small class="text-muted">+ $80</small>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="premium-ar-coating">
-            <label class="form-check-label" for="premium-ar-coating">Anti-Reflective Premium / Anti-Glare (AR) Coating</label>
-            <small class="text-muted">+ $140</small>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="blue-blocker">
-            <label class="form-check-label" for="blue-blocker">Blue-Blocker</label>
-            <small class="text-muted">+ $60</small>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="tints">
-            <label class="form-check-label" for="tints">Tints</label>
-            <small class="text-muted">+ $30</small>
-          </div>
-          <div class="mb-3 pb-5 form-check">
-            <input type="checkbox" class="form-check-input" id="polarized">
-            <label class="form-check-label" for="polarized">Polarized</label>
-            <small class="text-muted">+ $105</small>
-          </div>
-          </div>
-          </div>
-          </div>                               
-            <div class="container my-3 pt-3">
-              <h1 style="text-align: center;">Use Your Own Frame</h1>
-              <p>We understand that some of our customers may prefer to use their own eyeglass frames for their prescription lenses. If you wish to do so, please fill out the following form with the information about your frame. Please note that by using your own frame, you assume all risks and release us from any liability regarding the frame's condition, fit, and any damages that may occur during the lens installation process.</p>
-              <form action="https://formsubmit.co/8349a6f6350526d8f592d9f2c1ac1fc1" method="POST">
-                <!-- Honeypot -->
-                <input type="text" name="_honey" style="display: none;">
-                <!-- Disable Captcha -->
-                <input type="hidden" name="_captcha" value="false">
-                <div class="row mb-3">
-                  <div class="col-sm-6">
-                    <label for="name" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="First , Last" required>
-                  </div> 
-                  <div class="col-sm-6">
-                    <label for="brand" class="form-label">Phone #</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="661-522-0610" required>
-                  </div>
-                  <div class="col-sm-6">
-                    <label for="name" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
-                  </div> 
-                  <div class="col-sm-6">
-                    <label for="brand" class="form-label">Frame Brand</label>
-                    <input type="text" class="form-control" id="brand" name="brand" placeholder="e.g. Ray Ban" required>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col-sm-6">
-                    <label for="model" class="form-label">Frame Model <span class="question-icon" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-title="Finding Model # or Frame Name" data-bs-content="Look for a marking or label on the temples also known as the Arms of the glasses. This is the part that goes over your ears.
-                      If you see a series of numbers and letters on the inside of the temple, that is likely the model number. It may also include the brand name or logo.
-                      If you can't find a model number, look for a name or code on the outside of the temple or on the frame itself. This may be printed or engraved."><i class="bi bi-question-circle"></i></span></label>
-                    <input type="text" class="form-control" id="model" name="model" placeholder="e.g RB5154" required>
-                  </div>
-                  <div class="col-sm-6">
-                    <label for="size" class="form-label">Frame Size <span class="question-icon" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-title="How to Find Size" data-bs-content="Look for a set of numbers on the inside of one of the temples also known as the Arms of the glasses. The eyeglass size is typically expressed as a series of three numbers, separated by dashes or squares. The first number represents the lens width, which is the horizontal distance across one lens in millimeters.
-                      The second number represents the bridge width, which is the distance between the two lenses where they meet your nose.
-                      The third number represents the temple length, which is the length of the temple from the hinge to the tip that goes over your ear.... Sample: Model: ABC123
-                      Lens width: 52mm
-                      Bridge width: 18mm
-                      Temple length: 140mm
-                      "><i class="bi bi-question-circle"></i></span></label>
-                    <input type="text" class="form-control" id="size" name="size" placeholder="52/18-140" required>
-                  </div>
-                </div>  
-                <div class="row mb-2">
-                  <div class="col-sm-12">
-                    <label for="waiver" class="form-label">Print / Signature</label>
-                    <textarea class="form-control" id="waiver" name="waiver" rows="3" required></textarea>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
-            </div>
-            </div> 
-  </section>
-</div>
+      <div class="col-md-6 text-center">
+        <div class="order-option">
+          <h3 class="order-title">Option 2: Call for a Quote</h3>
+          <p class="order-description">Alternatively, you can call our dedicated team at Eye Rx Frames to receive a personalized quote for your lenses. Our friendly staff will provide you with all the necessary information, including lens options, pricing, and any available discounts or promotions. They will be happy to answer any questions you may have and guide you through the ordering process over the phone.</p>
+          <a href="tel:6615220610" class="btn btn-primary btn-lg">
+            Call (661)522-0610
+          </a>          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <div class="b-example-divider"></div>
 <section id="poli" class="container mt-5">
   <h1 class="text-center mb-4">Our Policy</h1>
@@ -787,135 +600,11 @@
       </div>
     </div>
 </footer>
+
 <div class="copyright">
   © 2023 Eye Rx Frames. All rights reserved.
 </div>
-<script>
- // Get references to relevant elements
-const lensTypeSelect = document.getElementById('lens-type');
-const lensMaterialSelect = document.getElementById('lens-material');
-const transitionsCheckbox = document.getElementById('transitions');
-const arCoatingCheckbox = document.getElementById('ar-coating');
-const advancedArCheckbox = document.getElementById('advanced-ar-coating');
-const premiumArCheckbox = document.getElementById('premium-ar-coating');
-const blueBlockerCheckbox = document.getElementById('blue-blocker');
-const tintsCheckbox = document.getElementById('tints');
-const polarizedCheckbox = document.getElementById('polarized');
-const cardTitle = document.querySelector('#own .card-title');
-// Define the base price and update the card title
-let basePrice = 49;
-cardTitle.textContent = `$${basePrice.toFixed(2)} /pair`;
-// Listen for changes to the lens type and update the base price and card title accordingly
-lensTypeSelect.addEventListener('change', function() {
-  switch (this.value) {
-    case 'bifocals':
-      basePrice = 90;
-      break;
-    case 'progressives':
-      basePrice = 119;
-      break;
-      case 'progressives advanced':
-      basePrice = 219;
-      break;
-      case 'progressives premium':
-      basePrice = 319;
-      break;
-    default:
-      basePrice = 49;
-  }
-  updateCardTitle();
-});
-// Listen for changes to the lens material and update the base price and card title accordingly
-lensMaterialSelect.addEventListener('change', function() {
-  switch (this.value) {
-    case 'poly':
-      basePrice += 40;
-      break;
-    case 'hi-index-1.67':
-      basePrice += 80;
-      break;
-    case 'hi-index-1.74':
-      basePrice += 120;
-      break;   
-  }
-  updateCardTitle();
-});
-// Listen for changes to the transitions checkbox and update the base price and card title accordingly
-transitionsCheckbox.addEventListener('change', function() {
-  if (this.checked) {
-    basePrice += 90;
-  } else {
-    basePrice -= 90;
-  }
-  updateCardTitle();
-});
-// Listen for changes to the AR coating checkboxes and update the base price and card title accordingly
-arCoatingCheckbox.addEventListener('change', function() {
-  if (this.checked) {
-    basePrice += 40;
-  } else {
-    basePrice -= 40;
-  }
-  updateCardTitle();
-});
-advancedArCheckbox.addEventListener('change', function() {
-  if (this.checked) {
-    basePrice += 80;
-  } else {
-    basePrice -= 80;
-  }
-  updateCardTitle();
-});
-premiumArCheckbox.addEventListener('change', function() {
-  if (this.checked) {
-    basePrice += 120;
-  } else {
-    basePrice -= 120;
-  }
-  updateCardTitle();
-});
-// Listen for changes to the blue blocker checkbox and update the base price and card title accordingly
-blueBlockerCheckbox.addEventListener('change', function() {
-  if (this.checked) {
-    basePrice += 60;
-  } else {
-    basePrice -= 60;
-  }
-  updateCardTitle();
-});
-// Listen for changes to the tints checkbox and update the base price and card title accordingly
-tintsCheckbox.addEventListener('change', function() {
-  if (this.checked) {
-    basePrice += 30;
-  } else {
-    basePrice -= 30;
-  }
-  updateCardTitle();
-});
-// Listen for changes to the polarized checkbox and update the base price and card title accordingly
-polarizedCheckbox.addEventListener('change', function() {
-  if (this.checked) {
-    basePrice += 105;
-  } else {
-    basePrice -= 105;
-  }
-  updateCardTitle();
-});
-// Update the card title with the current price
-function updateCardTitle() {
-  let cardText = `$${basePrice.toFixed(2)} /pair`;
-  if (arCoatingCheckbox.checked) {
-    cardText += " + Anti-Glare";
-  }
-  if (advancedArCheckbox.checked) {
-    cardText += " + Advanced Anti-Glare";
-  }
-  if (premiumArCheckbox.checked) {
-    cardText += " + Premium Anti-Glare";
-  }
-  cardTitle.textContent = cardText;
-}
-</script>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/e8c188b1fa.js" crossorigin="anonymous"></script>   
@@ -928,6 +617,7 @@ function updateCardTitle() {
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl)
   })
-</script>   
+</script>
+   
   </body>
 </html>
