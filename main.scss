@@ -5,7 +5,7 @@ $thene-colors: ();
 .nav-item {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  box-shadow: 10px 5px 20px;
+  box-shadow: 2px 1px 5px;
   border-radius: 5%;
   margin: 20px;
 }
@@ -15,11 +15,38 @@ $thene-colors: ();
   right: 4rem;
 }
  
+/* Add hover effect for navigation links */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+.navbar-nav .nav-link:hover {
+  color: #ff6347;  /* Change to a color of your choice, e.g., Tomato */
+  transform: scale(1.05);  /* Slight zoom effect on hover */
+}
+
+/* Hover effect for the buttons */
+.call-btn, .email-btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for the buttons */
+.call-btn:hover, .email-btn:hover {
+  transform: scale(1.05);  /* Slight zoom effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Adds shadow on hover */
+}
+
+/* Ensuring both buttons are spaced out in mobile view */
+.d-flex {
+  gap: 15px;
+}
+
 
 
 html,
 body {
-  background-color: #438fe6;
+  background-color: #000000; // change to gradient tone
   color: #ffff;
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -36,7 +63,7 @@ body {
 
 #top {
   background-image: url(images/palmdale-ca.jpg);
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -52,22 +79,78 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: transparent;
 }
 
-#catch {
+  #transparent-carousel {
+    width: 75%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .carousel-inner {
+    max-height: 550px; /* Adjust the height as needed */
+  }
+  /* Media query for mobile devices in portrait orientation */
+  @media (max-width: 576px) {
+    .carousel-inner {
+      max-height: 300px; /* Adjust the height as needed for mobile */
+    }
+    .top-title {
+      font-size: 25px; /* Adjust the font size for mobile */
+    }
+    .text-white {
+      font-size: 15px; /* Adjust the font size for mobile */
+    }
+  }
 
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  height: 400px;
-}
+  .service-card {
+    background-color: #438fe6;
+    padding: 10px;
+    margin-top: 3rem;
+    border-radius: 10px;
+    height: 600px; /* Set a fixed height for all service cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures proper distribution of space between the image and the text */
+  }
 
-#catch .carousel-item img {
-  max-height: 405px;
+  .image-container {
+    height: 60%; /* Ensures the image container takes up 50% of the service card's height */
+    overflow: hidden;
+  }
 
-  object-fit: contain;
-}
+  .service-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container without distorting */
+    border-radius: 5px; /* Optional: adds rounded corners */
+  }
 
+  .service-description {
+    font-size: 1rem;
+  }
+
+  /* Adjust the height slightly for smaller screens */
+  @media (max-width: 768px) {
+    .service-card {
+      height: 500px; /* Reduces height for smaller screens */
+    }
+
+    .service-image {
+      height: 80%; /* Adjust image height for smaller screens */
+    }
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scale and shadow */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Add a larger shadow when hovering */
+  }
+  
+  
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -81,13 +164,11 @@ body {
     font-size: 3.5rem;
   }
 }
-
-.service-image {
+// changed height from 400 rem to auto
+.service-image { 
   width: 100%;
-  height: 20rem;
+  height: auto; 
 }
-
-
 
 
 .b-example-divider {
@@ -116,7 +197,7 @@ main {
 }
 
 .container {
-  background-color: #438fe6;
+  background-color: #000000;
 }
 
 .pricing-header {
@@ -124,12 +205,12 @@ main {
 }
 
 .oval-container {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(238, 241, 9, 0.61);
   border-radius: 25%;
   padding-top: 10px;
   text-align: center;
   width: 280px;
-  height: 55px;
+  height: 40px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   color: #ffff;
@@ -148,8 +229,13 @@ main {
   object-fit: contain;
   max-width: 100%;
 }
+
+.card-header {
+  background-color: #438fe6;
+  color: #ffff;
+}
 .card-text {
-  color: #333;
+  color: #000000;
 }
 .footer-image {
   background-image: url(images/footerpic.jpg);
@@ -169,14 +255,3 @@ ol {
   list-style-position: inside;
   padding-left: 0;
 }
-.video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.video-container iframe {
-  max-width: 100%;
-  max-height: 100%;
-}
-
