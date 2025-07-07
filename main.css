@@ -56,10 +56,10 @@ body {
 }
 
 #top {
-  background-image: url(images/palmdale-ca.jpg);
-  height: 600px;
+  background-image: url(images/chat.optician.png);
+  height: 1000px;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
   text-align: center;
   position: relative;
@@ -231,10 +231,45 @@ main {
 }
 
 .footer-image {
-  background-image: url(images/footerpic.jpg);
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
+  color: #fff;
+  overflow: hidden;
+}
+.footer-image .footer-overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.footer-image .container {
+  position: relative;
+  z-index: 2;
+}
+.footer-image h5 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.footer-image .footer-list {
+  padding: 0;
+}
+.footer-image .footer-list li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+.footer-image .footer-list a {
+  text-decoration: none;
+}
+.footer-image .footer-list a:hover {
+  text-decoration: underline;
+  color: #ddd;
 }
 
 iframe[src^="https://www.google.com/maps"] {
